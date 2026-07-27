@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
 <meta charset="UTF-8">
@@ -10,18 +9,180 @@
 
 <title>BABA TECH HUB | New & Used Laptop Shop Jaipur</title>
 
-<meta name="description" content="BABA TECH HUB Jaipur - Buy New and Second Hand Laptops, Mobiles, Cameras and Repair Services.">
+<meta name="description" content="BABA TECH HUB - New and Second Hand Laptop, Mobile, Camera and Repair Service. Owner DILEEP CHOUDHARY.">
 
-<meta name="keywords" content="BABA TECH HUB, Laptop Shop Jaipur, Second Hand Laptop, Used Laptop Jaipur">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/responsive.css">
+<style>
 
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#f5f7fb;
+color:#222;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+header{
+background:#111827;
+padding:15px 5%;
+position:sticky;
+top:0;
+z-index:100;
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo h2{
+color:white;
+}
+
+.logo span{
+color:#00bfff;
+}
+
+.logo p{
+color:#ddd;
+font-size:12px;
+}
+
+.nav-links{
+display:flex;
+gap:20px;
+list-style:none;
+}
+
+.nav-links a{
+color:white;
+text-decoration:none;
+}
+
+.login-btn{
+background:#00bfff;
+padding:8px 15px;
+border-radius:20px;
+}
+
+
+.hero{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:60px 8%;
+gap:30px;
+}
+
+.hero-left{
+width:50%;
+}
+
+.hero h1{
+font-size:45px;
+}
+
+.hero h1 span{
+color:#00bfff;
+}
+
+.hero p{
+margin:20px 0;
+font-size:18px;
+}
+
+.hero img{
+width:400px;
+border-radius:20px;
+}
+
+.btn{
+display:inline-block;
+padding:12px 25px;
+background:#00bfff;
+color:white;
+text-decoration:none;
+border-radius:25px;
+margin-right:10px;
+}
+
+
+
+.section{
+padding:50px 8%;
+text-align:center;
+}
+
+.section h2{
+font-size:35px;
+margin-bottom:30px;
+}
+
+
+.cards{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:20px;
+}
+
+
+.card{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 5px 15px #ddd;
+}
+
+
+.card i{
+font-size:35px;
+color:#00bfff;
+}
+
+
+.products{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+}
+
+
+.product{
+background:white;
+padding:20px;
+border-radius:15px;
+}
+
+
+.product img{
+width:100%;
+height:180px;
+object-fit:cover;
+border-radius:10px;
+}
+
+
+.price{
+color:#008000;
+font-size:22px;
+font-weight:bold;
+margin:10px;
+}
+
+
+</style>
 
 </head>
-
 
 <body>
 
@@ -30,64 +191,20 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 
 <nav class="navbar">
 
-
 <div class="logo">
-
-<h2>
-BABA <span>TECH HUB</span>
-</h2>
-
-<p>DILEEP CHOUDHARY</p>
-
+<h2>BABA <span>TECH HUB</span></h2>
+<p>Owner: DILEEP CHOUDHARY</p>
 </div>
-
 
 
 <ul class="nav-links">
 
-<li>
-<a href="index.html" class="active">Home</a>
-</li>
-
-<li>
-<a href="products.html">Products</a>
-</li>
-
-<li>
-<a href="services.html">Services</a>
-</li>
-
-<li>
-<a href="about.html">About</a>
-</li>
-
-<li>
-<a href="contact.html">Contact</a>
-</li>
+<li><a href="#home">Home</a></li>
+<li><a href="#products">Products</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#contact">Contact</a></li>
 
 </ul>
-
-
-
-<div class="nav-icons">
-
-<a href="wishlist.html">
-<i class="fa-solid fa-heart"></i>
-</a>
-
-
-<a href="cart.html">
-<i class="fa-solid fa-cart-shopping"></i>
-</a>
-
-
-<a href="login.html" class="login-btn">
-Login
-</a>
-
-
-</div>
-
 
 </nav>
 
@@ -95,234 +212,142 @@ Login
 
 
 
-
-
-<!-- HERO SECTION -->
-
-
-<section class="hero">
-
+<section class="hero" id="home">
 
 <div class="hero-left">
 
-
 <h1>
-
-Buy Premium
-
-<span>
 New & Used
-</span>
-
-Laptops
-
+<span>Laptops</span>
+at Best Price
 </h1>
 
-
-
 <p>
-
-BABA TECH HUB provides quality laptops,
+BABA TECH HUB Jaipur provides quality laptops,
 mobiles, cameras and professional repair services.
-
 </p>
 
 
-
-<div class="hero-buttons">
-
-
-<a href="products.html" class="btn-primary">
-
-Shop Now
-
+<a href="#products" class="btn">
+View Products
 </a>
 
 
-
-<a href="services.html" class="btn-secondary">
-
-Repair Service
-
+<a href="https://wa.me/916376735807" class="btn">
+WhatsApp
 </a>
 
 
 </div>
 
 
-</div>
+<div>
 
-
-
-
-<div class="hero-right">
-
-
-<img src="images/hero.jpg" alt="BABA TECH HUB Laptop">
-
+<img src="images/hero.jpg">
 
 </div>
-
 
 </section>
 
 
 
+<section class="section">
+
+<h2>Why Choose Us?</h2>
 
 
-
-<!-- FEATURES -->
-
-
-<section class="features">
+<div class="cards">
 
 
-<div class="feature">
-
+<div class="card">
 <i class="fa-solid fa-laptop"></i>
-
-<h3>
-Premium Laptops
-</h3>
-
-<p>
-New & Used Laptop Available
-</p>
-
+<h3>Quality Laptop</h3>
+<p>Tested New & Used Laptop</p>
 </div>
 
 
-
-<div class="feature">
-
-<i class="fa-solid fa-shield-halved"></i>
-
-<h3>
-Warranty
-</h3>
-
-<p>
-Trusted Products
-</p>
-
-</div>
-
-
-
-<div class="feature">
-
+<div class="card">
 <i class="fa-solid fa-screwdriver-wrench"></i>
-
-<h3>
-Repair Service
-</h3>
-
-<p>
-Laptop & Mobile Repair
-</p>
-
+<h3>Repair Service</h3>
+<p>Laptop Mobile Repair</p>
 </div>
 
 
+<div class="card">
+<i class="fa-solid fa-shield"></i>
+<h3>Warranty</h3>
+<p>Trusted Products</p>
+</div>
 
-<div class="feature">
 
+<div class="card">
 <i class="fa-solid fa-headset"></i>
-
-<h3>
-Support
-</h3>
-
-<p>
-Customer Support
-</p>
-
+<h3>Support</h3>
+<p>Fast Customer Support</p>
 </div>
 
+
+</div>
 
 </section>
 
 
 
+<section class="section" id="products">
+
+<h2>Our Products</h2>
 
 
-
-<!-- CATEGORY SECTION -->
-
-
-<section class="categories">
+<div class="products">
 
 
-<div class="section-title">
-
-<h2>
-Shop By Category
-</h2>
-
-<p>
-Choose Your Technology
-</p>
-
-</div>
-
-
-
-<div class="category-grid">
-
-
-
-<div class="category-card">
+<div class="product">
 
 <img src="images/laptops/laptop1.jpg">
 
-<h3>
-Laptops
-</h3>
+<h3>Dell Latitude Laptop</h3>
+
+<p class="price">₹29,999</p>
+
+<a class="btn" href="https://wa.me/916376735807">
+Buy Now
+</a>
 
 </div>
 
 
 
+<div class="product">
 
-<div class="category-card">
+<img src="images/laptops/laptop2.jpg">
+
+<h3>HP ProBook</h3>
+
+<p class="price">₹24,999</p>
+
+<a class="btn" href="https://wa.me/916376735807">
+Buy Now
+</a>
+
+</div>
+
+
+
+<div class="product">
 
 <img src="images/mobiles/mobile1.jpg">
 
-<h3>
-Mobiles
-</h3>
+<h3>iPhone 13</h3>
+
+<p class="price">₹34,999</p>
+
+<a class="btn" href="https://wa.me/916376735807">
+Buy Now
+</a>
 
 </div>
 
 
-
-
-<div class="category-card">
-
-<img src="images/cameras/camera1.jpg">
-
-<h3>
-Cameras
-</h3>
-
 </div>
-
-
-
-
-<div class="category-card">
-
-<img src="images/icons/repair.png">
-
-<h3>
-Repair
-</h3>
-
-</div>
-
-
-
-</div>
-
 
 </section>
