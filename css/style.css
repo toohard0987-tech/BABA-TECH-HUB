@@ -862,13 +862,3 @@ transform:scale(1.1);
     height:auto;
     display:block;
 }
-.center-logo{
-    text-align:center;
-    margin:40px 0;
-}
-
-.center-logo img{
-    width:220px;
-    height:auto;
-    display:inline-block;
-}
